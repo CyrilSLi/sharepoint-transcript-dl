@@ -27,7 +27,6 @@ function getData(callback) {
         callback();
     }
 }
-
 const observer = new MutationObserver(() => {
     const disabledBtn = document.querySelector("button#downloadTranscript.is-disabled");
     if (disabledBtn) {
